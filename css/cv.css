@@ -15,7 +15,7 @@
   }
 }
 
-.image-placeholder-L {
+.image-tile-L {
   background-color: black;
   width: 48px;
   height: 48px;
@@ -23,7 +23,11 @@
   margin-right: 16px;
 }
 
-.image-placeholder-S {
+.image-tile-L img {
+  width: 100%;
+}
+
+.image-tile-S {
   background-color: black;
   width: 32px;
   height: 32px;
