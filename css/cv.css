@@ -5,7 +5,7 @@
   left: 50%;
   transform: translateX(-50%);
   box-sizing: border-box;
-  padding-bottom: 160px;
+  padding-bottom: 240px;
 }
 
 @media (max-width: 899px) {
@@ -16,7 +16,6 @@
 }
 
 .image-tile-L {
-  background-color: black;
   width: 48px;
   height: 48px;
   float: left;
@@ -28,7 +27,6 @@
 }
 
 .image-tile-S {
-  background-color: black;
   width: 32px;
   height: 32px;
   float: left;
@@ -44,19 +42,23 @@
   display: inline;
 }
 
-.image-placeholder {
-  width: 100%;
+.image-L {
+  width: 113%;
   box-sizing: border-box;
-  background-color: black;
-  height: 500px;
+  transform: translate(-13%, 0);
 }
+
+.image-L img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
 
 .lists-flexbox {
   display: flex;
   width: 100%;
   flex-direction: row;
   flex-wrap: wrap;
-  transform: translate(0, -48px);
 }
 
 .list-section {
