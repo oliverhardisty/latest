@@ -25,6 +25,7 @@
 
 .image-tile-L img {
   width: 100%;
+  position: absolute;
 }
 
 .image-tile-S {
