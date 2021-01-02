@@ -10,24 +10,36 @@ body {
   width: 100%;
 }
 
+@media (min-width: 697px) {
+
 .projectinfo {
   position: relative;
-  padding: 0 48px 0 48px;
-  width: 56%;
-  box-sizing: border-box;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 632px;
+}
 }
 
-@media (max-width: 899px) {
+@media (max-width: 696px) {
+  .projectinfo {
+    width: 100%;
+    padding: 0 32px 0 32px;
+    box-sizing: border-box;
+  }
+}
+
+@media (max-width: 428px) {
   .projectinfo {
     width: 100%;
     padding: 0 24px 0 24px;
+    box-sizing: border-box;
   }
 }
 
 .images {
   position: relative;
   padding: 0 24px 0 24px;
-  margin: 144px 0 48px 0;
+  margin: 240px 0 48px 0;
   width: 100%;
   box-sizing: border-box;
 }

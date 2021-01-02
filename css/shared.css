@@ -148,18 +148,11 @@ h6 {
   line-height: 32px;
 }
 
-.spacing_16px {
-  margin-top: 16px;
-}
-
-.translateY_144px {
-  transform: translateY(144px);
-}
-
-.info-section {
-  position: relative;
+.spacing_48px {
+  padding-top: 48px;
   margin-top: 48px;
 }
+
 
 .vertical-spacing_16px {
   height: 16px;
@@ -195,6 +188,10 @@ h6 {
 
 .vertical-spacing_112px {
   height: 112px;
+}
+
+.vertical-spacing_160px {
+  height: 160px;
 }
 
 
